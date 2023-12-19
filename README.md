@@ -2,7 +2,7 @@
 
 Welcome to my professional CV repository! This repository hosts the source code for my online CV, showcasing my skills, projects, and professional experiences.
 
-🔗 **View My CV**: [Kamil Kaczmarek's CV](https://kamilkaczmareksolutions.github.io/KamilKaczmarek-CV-PL/)
+🔗 **View My CV**: [Kamil Kaczmarek's CV (Polish)](https://kamilkaczmareksolutions.github.io/KamilKaczmarek-CV-PL/)
 
 ## CV Screenshot
 <img src="https://github.com/kamilkaczmareksolutions/KamilKaczmarek-CV-ENG/assets/95218485/fb29b3ea-e0a5-4d09-bb53-21daf0ef4ad8" width="500">
