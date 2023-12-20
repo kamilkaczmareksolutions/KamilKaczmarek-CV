@@ -9,7 +9,7 @@ sidebar:
 
     # Profile information
     name: Kamil Kaczmarek
-    tagline: Innowacyjny Specjalista ds. Rozwiązywania Problemów i Inżynier Oprogramowania
+    tagline: Specjalista ds. Projektowania Rozwiązań
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
@@ -70,12 +70,12 @@ experiences:
     title: Doświadczenie
     info:
       - role: Właściciel
-        time: Styczeń 2023 - Obecnie
+        time: Czerwiec 2023 - Obecnie
         company: Kamil Kaczmarek Solutions
         details: |
           Obowiązki i mocne strony:
           - Tworzenie oprogramowania na zamówienie, aplikacje oparte na modelach AI (głównie modele od OpenAI).
-          - Programowanie w Pythonie, prompt engeneering i Streamlit UI.
+          - Programowanie w Pythonie, prompt engineering i Streamlit UI.
           - Wykorzystanie API w różnorodnych projektach.
           - Tworzenie i automatyzacja procesów i procedur, innowacyjne rozwiązania.
           - Projektowanie i integracja systemów, ciągła nauka i stosowanie najnowszych technologii.
@@ -120,11 +120,11 @@ projects:
         link: "https://github.com/kamilkaczmareksolutions/Educational_Video_Series_Automation_Project"
         tagline: "Projekt automatyzujący 80% pracy przy tworzeniu serii video edukacyjnych, wykorzystujący Custom GPTs, Pythona i DALL·E do tworzenia opracowań kompleksowych tematów. Tworzy angażujące treści edukacyjne w sposób sekwencyjny."
       
-      - title: Generator Podpisów do Oprawionych Obrazów dla firmy JanAr na automacie
+      - title: Generator Podpisów do Oprawionych Obrazów dla firmy JanAr
         link: "https://github.com/kamilkaczmareksolutions/JanAr"
         tagline: "Aplikacja z GUI (Streamlit) wykorzystująca modele GPT do automatycznego generowania angażujących opisów do portfolio w mediach społecznościowych. Stworzona dla warsztatu szklarskiego i firmy zajmującej się oprawą obrazów 'JanAr', łączy moc GPT-4-Vision z zachęcającą do udzielania się pod postami strukturą."
       
-      - title: Konfigurowalny generator przepisów na masę
+      - title: Konfigurowalny generator przepisów na wzrost masy mięśniowej
         link: "https://github.com/kamilkaczmareksolutions/Recipe_Generator"
         tagline: "Prosta aplikacja z GUI wykorzystująca API od OpenAI do generowania przepisów dostosowanych do indywidualnych celów użytkownika, mająca dużo opcji na konfigurację."
 
