@@ -52,9 +52,10 @@ sidebar:
 career-profile:
     title: Profil Zawodowy
     summary: |
-      Innowacyjny i wszechstronny profesjonalista zainteresowany tworzeniem rozwiązań spersonalizowanych pod klienta i rozwojem sztucznej inteligencji. 
-      Zaznajomiony z językiem Python w stopniu pozwalającym na tworzenie rozwiązań od zera, posiadający umiejętność optymalizacji procesów i mający doświadczenie w budowie procedur. 
+      Innowacyjny i wszechstronny profesjonalista zainteresowany tworzeniem rozwiązań spersonalizowanych pod klienta i rozwojem sztucznej inteligencji.
+      Zaznajomiony z językiem Python w stopniu pozwalającym na tworzenie rozwiązań od zera, posiadający umiejętność optymalizacji procesów i mający doświadczenie w budowie procedur.
       Biegły w stosowaniu najnowocześniejszych technologii niezależnie od środowiska i warunków.
+      Obecnie intensywnie uczący się uczenia maszynowego, zwłaszcza TensorFlow, PyTorch, Keras i NLP, skupiając się w 100% na świecie AI.
 
 education:
     title: Edukacja
