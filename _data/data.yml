@@ -9,12 +9,12 @@ sidebar:
 
     # Profile information
     name: Kamil Kaczmarek
-    tagline: Specjalista ds. Projektowania Rozwiązań
+    tagline: Stażysta IT
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
     email: recruitment@kamilkaczmareksolutions.com
-    phone: +48 516 526 487
+    phone: +48 787 633 442
     website: #do not add http://
     linkedin: kamilkaczmareksolutions
     xing:
@@ -52,42 +52,40 @@ sidebar:
 career-profile:
     title: Profil Zawodowy
     summary: |
-      Innowacyjny i wszechstronny profesjonalista zainteresowany tworzeniem rozwiązań spersonalizowanych pod klienta i rozwojem sztucznej inteligencji.
+      Zainteresowany tworzeniem rozwiązań spersonalizowanych pod klienta i rozwojem sztucznej inteligencji oraz cyberbezpieczeństwem.
       Zaznajomiony z językiem Python w stopniu pozwalającym na tworzenie rozwiązań od zera, posiadający umiejętność optymalizacji procesów i mający doświadczenie w budowie procedur.
       Biegły w stosowaniu najnowocześniejszych technologii niezależnie od środowiska i warunków.
-      Obecnie intensywnie uczący się uczenia maszynowego, zwłaszcza TensorFlow, PyTorch, Keras i NLP, skupiając się w 100% na świecie AI.
-
+            
 education:
     title: Edukacja
     info:
       - degree: Licencjat z marketingu i sprzedaży
         university: Uniwersytet WSB Merito Chorzów
-        time: 2020 - 2023
+        time: 2020 - 2024
         details: |
           Specjalizacja: e-commerce i sprzedaż w nowych mediach, mocne zainteresowanie tematyką AI. 
-          Praca licencjacka na temat: Wykorzystanie AI w działaniach marketingowych przedsiębiorstw - studium przypadku.
+          Praca licencjacka na temat: Artificial intelligence in enterprise - Theoretical foundations and practical applications in the era of digital transformation.
 
 experiences:
     title: Doświadczenie
     info:
-      - role: Właściciel
+      - role: Własna działalność
         time: Czerwiec 2023 - Obecnie
         company: Kamil Kaczmarek Solutions
         details: |
           Obowiązki i mocne strony:
-          - Tworzenie oprogramowania na zamówienie, aplikacje oparte na modelach AI (głównie modele od OpenAI).
-          - Programowanie w Pythonie, prompt engineering i Streamlit UI.
-          - Wykorzystanie API w różnorodnych projektach.
-          - Tworzenie i automatyzacja procesów i procedur, innowacyjne rozwiązania.
-          - Projektowanie i integracja systemów, ciągła nauka i stosowanie najnowszych technologii.
-      
-      - role: Koordynator Projektu
+          - Tworzenie prostych rozwiązań pod klienta, aplikacje z API od OpenAI pod spodem.
+          - Python, prompt engineering.
+          - Tworzenie i automatyzacja procesów i procedur, projektowanie i integracja systemów.
+                
+      - role: Pracownik Administracyjny
         time: Listopad 2022 - Październik 2023
         company: Alpha Workforce LTD, Rotterdam
         details: |
           Obowiązki i mocne strony:
-          - Koordynacja logistyki pracowników z wykorzystaniem narzędzi cyfrowych, w tym AI, Python, ActiveCampaign, flotman, optimoroute, Macro VBA (Excel) i inne.
-          - Zarządzanie projektem na dużą skalę z naciskiem na budowę procesów i procedur, w kolejnym kroku na automatyzację.
+          - Prace administracyjne.
+          - Koordynacja logistyki pracowników z wykorzystaniem narzędzi cyfrowych, w tym AI, ActiveCampaign, flotman, optimoroute, Macro VBA (Excel) i inne.
+          - Pomoc przy zarządzaniu projektem na dużą skalę (~300 pracowników) z naciskiem na budowę procesów i procedur, w kolejnym kroku na automatyzację.
           - Wdrażanie AI w codziennych zadaniach dla usprawnienia pracy i zarządzania (przede wszystkim delegowanie na AI powtarzalnych zadań, tworzenie prostych apek z UI).
       
       - role: Konsultant Marketingowy
@@ -95,7 +93,7 @@ experiences:
         company: Freelance
         details: |
           Obowiązki i mocne strony:
-          - Digital Marketing z wykorzystaniem GPT (ówcześnie generacja 2 i 3), budowa ChatBotów, Zapier, Macro VBA (Excel), różne managery reklam (Meta/TikTok).
+          - Budowa ChatBotów (ManyChat), Zapier, Macro VBA (Excel), różne managery reklam (Meta/TikTok).
           - Opracowywanie i wdrażanie strategii świadomości marki online, zarządzanie systemami (np. Booksy, Moment).
           - Kampanie mailingowe i SMS.
           - Integracja systemów, planowanie strategiczne, reklama wieloplatformowa, zarządzanie relacjami z klientami.
@@ -107,7 +105,7 @@ experiences:
         details: |
           Obowiązki i mocne strony:
           - Wykonywanie pomiarów podczas turniejów golfowych European Tour, obsługa systemu GPS.
-          - Dostarczanie wysokiej jakości danych w czasie rzeczywistym dla bukmacherów, trenowanie Sieci Neuronowych, wysoka precyzja, doświadczenie międzynarodowe.
+          - Dostarczanie wysokiej jakości danych w czasie rzeczywistym dla bukmacherów, pomoc przy trenowaniu Sieci Neuronowych (data labeling), wysoka precyzja, doświadczenie międzynarodowe.
           - Szybka obróbka danych, wysoka dokładność, umiejętność pracy w sytuacjach wysokiego stresu, adaptacja do różnych środowisk.    
 
 projects:
@@ -156,4 +154,4 @@ skills:
         level: 68%
 
 footer: >
-    „Innowacyjność i wydajność. Pasjonat AI i technologii.”
+    Pasjonat AI i technologii.
