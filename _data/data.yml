@@ -77,6 +77,7 @@ experiences:
           - Tworzenie prostych rozwiązań pod klienta, aplikacje z API od OpenAI pod spodem.
           - Python, prompt engineering.
           - Tworzenie i automatyzacja procesów i procedur, projektowanie i integracja systemów.
+          - Analiza podatności (SharpHound, BloodHound), OSINT
                 
       - role: Pracownik Administracyjny
         time: Listopad 2022 - Październik 2023
