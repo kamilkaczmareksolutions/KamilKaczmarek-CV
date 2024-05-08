@@ -40,13 +40,16 @@ sidebar:
     interests:
       title: Zainteresowania
       info:
-        - item: Tworzenie Oprogramowania
+        - item: Tworzenie Rozwiązań
           link:
 
-        - item: AI i Uczenie Maszynowe
+        - item: AI
           link:
 
         - item: Automatyzacja Procesów
+          link:
+
+        - item: Cyberbezpieczeństwo
           link:
 
 career-profile:
