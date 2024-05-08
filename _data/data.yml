@@ -146,6 +146,9 @@ skills:
     toolset:
       - name: Prompt engineering
         level: 98%
+
+      - name: Research
+        level: 94%
       
       - name: Automatyzacja i optymalizacja procesów
         level: 88%
@@ -156,9 +159,15 @@ skills:
       - name: Analiza i zarządzanie danymi
         level: 78%
 
+      - name: OSINT
+        level: 76%
+
       - name: Rozwój oprogramowania
         level: 74%
 
+      - name: Cyberbezpieczeństwo
+        level: 70%
+      
       - name: Python
         level: 68%
 
