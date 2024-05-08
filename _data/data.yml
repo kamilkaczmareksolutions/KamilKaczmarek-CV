@@ -132,6 +132,17 @@ projects:
         link: "https://github.com/kamilkaczmareksolutions/AdvancedGPT4PromptCrafting"
         tagline: "Projekt skupiający się na kontrolowaniu modelu, w którym opisuję najlepsze praktyki. To obszerny poradnik dot. tworzenia promptów systemowych."
 
+publications:
+    title: Publications
+    intro: |
+      You can list your publications in this section. Lorem ipsum dolor sit
+      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
+      bibendum fringilla a eu lectus.
+    papers:
+      - title: Artificial intelligence in enterprise - Theoretical foundations and practical applications in the era of digital transformation
+        link: "https://kamilkaczmareksolutions.com/thesis"
+        authors: Kamil Kaczmarek
+        
 skills:
     title: Umiejętności i biegłość
 
