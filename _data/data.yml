@@ -119,13 +119,13 @@ projects:
       Koncentruję się na praktycznych zastosowaniach, które usprawniają procesy i poprawiają UX.
       Przede wszystkim zależy mi na budowie rozwiązań, które zrzucają z barków konieczność wykonywania powtarzalnych czynności.
     assignments:
-      - title: Automatyzacja Researchu, Struktury Prezentacji i Narracji, czyli szkielet do serii filmów eukacyjnych
-        link: "https://github.com/kamilkaczmareksolutions/Educational_Video_Series_Automation_Project"
-        tagline: "Projekt automatyzujący 80% pracy przy tworzeniu serii video edukacyjnych, wykorzystujący Custom GPTs, Pythona i DALL·E do tworzenia opracowań kompleksowych tematów. Tworzy angażujące treści edukacyjne w sposób sekwencyjny."
-      
       - title: Generator Podpisów do Oprawionych Obrazów dla firmy JanAr
         link: "https://github.com/kamilkaczmareksolutions/JanAr"
         tagline: "Aplikacja z GUI (Streamlit) wykorzystująca modele GPT do automatycznego generowania angażujących opisów do portfolio w mediach społecznościowych. Stworzona dla warsztatu szklarskiego i firmy zajmującej się oprawą obrazów 'JanAr', łączy moc GPT-4-Vision z zachęcającą do udzielania się pod postami strukturą."
+
+      - title: Automatyzacja Researchu, Struktury Prezentacji i Narracji, czyli szkielet do serii filmów eukacyjnych
+        link: "https://github.com/kamilkaczmareksolutions/Educational_Video_Series_Automation_Project"
+        tagline: "Projekt automatyzujący 80% pracy przy tworzeniu serii video edukacyjnych, wykorzystujący Custom GPTs, Pythona i DALL·E do tworzenia opracowań kompleksowych tematów. Tworzy angażujące treści edukacyjne w sposób sekwencyjny."
       
       - title: Konfigurowalny generator przepisów na wzrost masy mięśniowej
         link: "https://github.com/kamilkaczmareksolutions/Recipe_Generator"
