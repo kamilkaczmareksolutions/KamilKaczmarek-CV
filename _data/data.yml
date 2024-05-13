@@ -145,32 +145,23 @@ skills:
       - name: Prompt engineering
         level: 98%
 
-      - name: Research
+      - name: Research i OSINT
         level: 94%
 
       - name: Rozwiązywanie problemów
         level: 90%
       
-      - name: Automatyzacja i optymalizacja procesów
-        level: 88%
-
       - name: Excel (Macro & VBA)
         level: 82%
 
       - name: Analiza i zarządzanie danymi
         level: 78%
 
-      - name: OSINT
-        level: 76%
-
       - name: Rozwój oprogramowania
         level: 74%
 
       - name: Cyberbezpieczeństwo
         level: 70%
-      
-      - name: Python
-        level: 68%
 
 footer: >
     Pasjonat AI i technologii.
