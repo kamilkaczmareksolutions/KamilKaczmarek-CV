@@ -138,30 +138,30 @@ publications:
         link: "https://www.linkedin.com/pulse/improving-gpt-4-performance-practical-strategies-kamil-kaczmarek-rffif/?trackingId=ygQQl9xpSRSGCs4ylik97g%3D%3D"
         authors: Poradnik dot. kontroli modelu, 2024
         
-skills:
-    title: Umiejętności i biegłość
-
-    toolset:
-      - name: Prompt engineering
-        level: 98%
-
-      - name: Research i OSINT
-        level: 94%
-
-      - name: Rozwiązywanie problemów
-        level: 90%
-      
-      - name: Excel (Macro & VBA)
-        level: 82%
-
-      - name: Analiza i zarządzanie danymi
-        level: 78%
-
-      - name: Rozwój oprogramowania
-        level: 74%
-
-      - name: Cyberbezpieczeństwo
-        level: 70%
+#skills:
+#    title: Umiejętności i biegłość
+#
+#    toolset:
+#      - name: Prompt engineering
+#        level: 98%
+#
+#      - name: Research i OSINT
+#        level: 94%
+#
+#      - name: Rozwiązywanie problemów
+#        level: 90%
+#      
+#      - name: Excel (Macro & VBA)
+#        level: 82%
+#
+#      - name: Analiza i zarządzanie danymi
+#        level: 78%
+#
+#      - name: Rozwój oprogramowania
+#        level: 74%
+#
+#      - name: Cyberbezpieczeństwo
+#        level: 70%
 
 footer: >
     Pasjonat AI i technologii.
