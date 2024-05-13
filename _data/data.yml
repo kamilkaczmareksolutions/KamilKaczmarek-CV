@@ -55,9 +55,8 @@ sidebar:
 career-profile:
     title: Profil Zawodowy
     summary: |
-      Zainteresowany tworzeniem rozwiązań spersonalizowanych pod klienta i rozwojem sztucznej inteligencji oraz cyberbezpieczeństwem.
-      Zaznajomiony z językiem Python w stopniu pozwalającym na tworzenie rozwiązań od zera, posiadający umiejętność optymalizacji procesów i mający doświadczenie w budowie procedur.
-      Biegły w stosowaniu najnowocześniejszych technologii niezależnie od środowiska i warunków.
+      Jestem zainteresowany tworzeniem rozwiązań spersonalizowanych pod klienta i rozwojem sztucznej inteligencji oraz cyberbezpieczeństwem.
+      Posiadam umiejętność optymalizacji procesów i mam doświadczenie w budowie procedur oraz jestem biegły w stosowaniu najnowocześniejszych technologii niezależnie od środowiska i warunków.
             
 education:
     title: Edukacja
@@ -76,7 +75,6 @@ experiences:
         time: Czerwiec 2023 - Obecnie
         company: Kamil Kaczmarek Solutions
         details: |
-          Obowiązki i mocne strony:
           - Tworzenie prostych rozwiązań pod klienta, aplikacje z API od OpenAI pod spodem.
           - Python, prompt engineering.
           - Tworzenie i automatyzacja procesów i procedur, projektowanie i integracja systemów.
@@ -86,7 +84,6 @@ experiences:
         time: Listopad 2022 - Październik 2023
         company: Alpha Workforce LTD, Rotterdam
         details: |
-          Obowiązki i mocne strony:
           - Prace administracyjne.
           - Koordynacja logistyki pracowników z wykorzystaniem narzędzi cyfrowych, w tym AI, ActiveCampaign, flotman, optimoroute, Macro VBA (Excel) i inne.
           - Pomoc przy zarządzaniu projektem na dużą skalę (~300 pracowników) z naciskiem na budowę procesów i procedur, w kolejnym kroku na automatyzację.
@@ -96,7 +93,6 @@ experiences:
         time: Kwiecień 2020 - Listopad 2022
         company: Freelance
         details: |
-          Obowiązki i mocne strony:
           - Budowa ChatBotów (ManyChat), Zapier, Macro VBA (Excel), różne managery reklam (Meta/TikTok).
           - Opracowywanie i wdrażanie strategii świadomości marki online, zarządzanie systemami (np. Booksy, Moment).
           - Kampanie mailingowe i SMS.
@@ -107,7 +103,6 @@ experiences:
         time: Kwiecień 2019 - Kwiecień 2020
         company: FlightScope - European Golf Tour
         details: |
-          Obowiązki i mocne strony:
           - Wykonywanie pomiarów podczas turniejów golfowych European Tour, obsługa systemu GPS.
           - Dostarczanie wysokiej jakości danych w czasie rzeczywistym dla bukmacherów, pomoc przy trenowaniu Sieci Neuronowych (data labeling), wysoka precyzja, doświadczenie międzynarodowe.
           - Szybka obróbka danych, wysoka dokładność, umiejętność pracy w sytuacjach wysokiego stresu, adaptacja do różnych środowisk.    
