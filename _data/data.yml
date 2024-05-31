@@ -110,6 +110,16 @@ experiences:
 certifications:
       title: Certyfikaty
       list:
+        - name: CyberTek Tech Festival 2024
+          start: 2024
+          end: 
+          organization: CyberTek Tech Festival
+          credentialid: 5af19b7a-ee9c-4cc8-9e47-2aad8ec91996
+          credentialurl: credsverse.com/credentials/5af19b7a-ee9c-4cc8-9e47-2aad8ec91996
+          credentialname: CyberTek Tech Festival 2024
+          details: |
+            Uczestniczyłem jako wolontariusz w dwudniowym festiwalu w Katowicach, zdobywając punkty CPE dzięki wykładom na zaawansowane tematy z zakresu cyberbezpieczeństwa OT, reagowania na incydenty i analizy ryzyka.
+
         - name: Pre Security
           start: 2024
           end: 
@@ -118,7 +128,7 @@ certifications:
           credentialurl: tryhackme-certificates.s3-eu-west-1.amazonaws.com/THM-JQPSIP1Q26.png
           credentialname: Pre Security
           details: |
-
+            Zdobyłem podstawową wiedzę z zakresu cyberbezpieczeństwa, m.in. nt. sieci, podstaw systemów operacyjnych i zasad bezpieczeństwa.
         
         - name: Introduction to Cyber Security
           start: 2024
@@ -128,7 +138,7 @@ certifications:
           credentialurl: tryhackme-certificates.s3-eu-west-1.amazonaws.com/THM-FPKWGYOCUT.png
           credentialname: Introduction to Cyber Security
           details: |
-
+            Zdobyłem wszechstronne umiejętności w zakresie cyberbezpieczeństwa, obejmujące strategie obronne, operacje SOC, kryminalistykę cyfrową i etyczny hacking.
         
         - name: Getting Started with ThreatGEN® Red vs. Blue
           start: 2024
@@ -138,7 +148,7 @@ certifications:
           credentialurl: portal.threatgen.com/certificates/o8zktplxud
           credentialname: Getting Started with ThreatGEN® Red vs. Blue
           details: |
-            
+            Ukończyłem szkolenie z symulacji cyberbezpieczeństwa opartej na grze ThreatGEN® Red vs. Blue, koncentrując się na operacjach defensywnych i ofensywnych.
             
         - name: Red vs. Blue Cyber Simulation Range
           start: 2024
@@ -148,7 +158,7 @@ certifications:
           credentialurl: portal.threatgen.com/certificates/s8fayxwi0v
           credentialname: Red vs. Blue Cyber Simulation Range
           details: |
-            
+            Brałem udział w symulacjach cyberbezpieczeństwa live, broniąc i atakując sieci komputerowe i systemy przemysłowe.
 
 projects:
     title: Projekty
