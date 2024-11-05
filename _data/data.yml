@@ -1,31 +1,19 @@
-#
-# Be aware that even a small syntax error here can lead to failures in output.
-#
-
 sidebar:
-    position: right # position of the sidebar : left or right
-    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
-    education: True # set to False if you want education in main section instead of in sidebar
+    position: right
+    about: False
+    education: True
 
     # Profile information
     name: Kamil Kaczmarek
-    tagline: Stażysta IT
-    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    tagline: Marketing Manager & AI Solutions
+    avatar: profile.png
 
     # Sidebar links
     email: recruitment@kamilkaczmareksolutions.com
-    phone: +48 787 633 442
-    website: #do not add http://
+    phone: +48 697 458 214
+    location: Siemianowice Śląskie, Polska
     linkedin: kamilkaczmareksolutions
-    xing:
     github: kamilkaczmareksolutions
-    telegram: # add your nickname without '@' sign
-    gitlab:
-    bitbucket:
-    twitter:
-    stack-overflow: # Number/Username, e.g. 123456/alandoe
-    codewars:
-    goodreads: # Number-Username, e.g. 123456-alandoe
     pdf: https://kamilkaczmareksolutions.com/cv-download-pl
 
     languages:
@@ -33,188 +21,115 @@ sidebar:
       info:
         - idiom: Polski
           level: Ojczysty
-
         - idiom: Angielski
           level: Biegły
 
     interests:
       title: Zainteresowania
       info:
-        - item: Tworzenie Rozwiązań
+        - item: Marketing Cyfrowy
           link:
-
-        - item: AI
+        - item: AI w Biznesie
           link:
-
-        - item: Automatyzacja Procesów
+        - item: Psychologia Biznesu
           link:
-
-        - item: Cyberbezpieczeństwo
+        - item: Nowe Technologie
           link:
 
 career-profile:
     title: Profil Zawodowy
     summary: |
-      Jestem zainteresowany tworzeniem rozwiązań spersonalizowanych pod klienta i rozwojem sztucznej inteligencji oraz cyberbezpieczeństwem.
-      Posiadam umiejętność optymalizacji procesów i mam doświadczenie w budowie procedur oraz jestem biegły w stosowaniu najnowocześniejszych technologii niezależnie od środowiska i warunków.
-            
-education:
-    title: Edukacja
-    info:
-      - degree: Licencjat z marketingu i sprzedaży
-        university: Uniwersytet WSB Merito Chorzów
-        time: 2020 - 2024
-        details: |
-          Specjalizacja: e-commerce i sprzedaż w nowych mediach, mocne zainteresowanie tematyką AI. 
-          Praca licencjacka na temat: Artificial intelligence in enterprise - Theoretical foundations and practical applications in the era of digital transformation.
+      Innowacyjny specjalista marketingu cyfrowego z doświadczeniem w wykorzystaniu AI i nowych technologii. 
+      Założyciel Kamil Kaczmarek Solutions, z udokumentowanym prowadzeniem działań marketingowych dla różnorodnych branż. 
+      Biegła znajomość języka angielskiego potwierdzona pracą w środowisku międzynarodowym.
 
 experiences:
     title: Doświadczenie
     info:
-      - role: Własna działalność
-        time: Czerwiec 2023 - Obecnie
+      - role: Założyciel i Marketing Manager
+        time: Październik 2023 - Obecnie
         company: Kamil Kaczmarek Solutions
         details: |
-          - Tworzenie prostych rozwiązań pod klienta, aplikacje z API od OpenAI pod spodem.
-          - Python, prompt engineering.
-          - Tworzenie i automatyzacja procesów i procedur, projektowanie i integracja systemów.
-          - Analiza podatności (SharpHound, BloodHound, theHarvester), OSINT (SpiderFoot, Maltego), SIEM (WAZUH) 
-                
-      - role: Pracownik Administracyjny
+          - Implementacja rozwiązań AI (LLMs, GeneratywnaAI) w strategiach marketingowych
+          - Tworzenie zautomatyzowanych rozwiązań marketingowych
+          - Zarządzanie projektami dla klientów z różnych branż
+          - Rozwój własnych rozwiązań AI w marketingu
+
+      - role: Koordynator administracyjny
         time: Listopad 2022 - Październik 2023
-        company: Alpha Workforce Aps, Rotterdam
+        company: Projekt rozbudowy rafinerii, Rotterdam
         details: |
-          - Prace administracyjne.
-          - Koordynacja logistyki pracowników z wykorzystaniem narzędzi cyfrowych, w tym AI, ActiveCampaign, flotman, optimoroute, Macro VBA (Excel) i inne.
-          - Pomoc przy zarządzaniu projektem na dużą skalę (~300 pracowników) z naciskiem na budowę procesów i procedur, w kolejnym kroku na automatyzację.
-          - Wdrażanie AI w codziennych zadaniach dla usprawnienia pracy i zarządzania (przede wszystkim delegowanie na AI powtarzalnych zadań, tworzenie prostych apek z UI).
-      
-      - role: Konsultant Marketingowy
+          - Zarządzanie komunikacją między polskimi pracownikami a anglojęzycznym managementem
+          - Koordynacja pracowników i tłumaczenia
+          - Nadzór nad dokumentacją projektową
+          - Implementacja rozwiązań optymalizacyjnych
+
+      - role: Marketing Manager
         time: Kwiecień 2020 - Listopad 2022
-        company: Freelance
+        company: Freelancer
         details: |
-          - Budowa ChatBotów (ManyChat), Zapier, Macro VBA (Excel), różne managery reklam (Meta/TikTok).
-          - Opracowywanie i wdrażanie strategii świadomości marki online, zarządzanie systemami (np. Booksy, Moment).
-          - Kampanie mailingowe i SMS.
-          - Integracja systemów, planowanie strategiczne, reklama wieloplatformowa, zarządzanie relacjami z klientami.
-          - Biegłość w narzędziach i platformach cyfrowych, różnorodne projekty.
-      
-      - role: Kolekcjoner Danych
+          - Prowadzenie kompleksowych kampanii marketingowych i social media dla portfolio 12+ klientów
+          - Projekt "Pomagam Groomerom" - audyty i strategie marketingowe
+          - Obsługa klientów z branż: beauty, wedding planning, gastronomia, dog grooming, studia tańca
+          - Implementacja rozwiązań automatyzacyjnych
+
+      - role: Specjalista ds. analizy danych
         time: Kwiecień 2019 - Kwiecień 2020
-        company: IMG ARENA (wcześniej FlightScope) - European Golf Tour
+        company: FlightScope / IMG Arena
         details: |
-          - Wykonywanie pomiarów podczas turniejów golfowych European Tour, obsługa systemu GPS.
-          - Dostarczanie wysokiej jakości danych w czasie rzeczywistym dla bukmacherów, pomoc przy trenowaniu Sieci Neuronowych (data labeling), wysoka precyzja, doświadczenie międzynarodowe.
-          - Szybka obróbka danych, wysoka dokładność, umiejętność pracy w sytuacjach wysokiego stresu, adaptacja do różnych środowisk.    
+          - Zbieranie i analiza danych podczas międzynarodowych turniejów golfowych
+          - Współpraca z bookmacherami i analiza statystyk sportowych
+          - Praca w środowisku międzynarodowym (Europa, Skandynawia, kraje arabskie)
 
-certifications:
-      title: Certyfikaty
-      list:
-        - name: CyberTek Tech Festival 2024
-          start: 2024
-          end: 
-          organization: CyberTek Tech Festival
-          credentialid: 5af19b7a-ee9c-4cc8-9e47-2aad8ec91996
-          credentialurl: credsverse.com/credentials/5af19b7a-ee9c-4cc8-9e47-2aad8ec91996
-          credentialname: CyberTek Tech Festival 2024
-          details: |
-            Uczestniczyłem jako wolontariusz w dwudniowym festiwalu w Katowicach, zdobywając punkty CPE dzięki wykładom na zaawansowane tematy z zakresu cyberbezpieczeństwa OT, reagowania na incydenty i analizy ryzyka.
+education:
+    title: Edukacja
+    info:
+      - degree: Licencjat z Marketingu i Sprzedaży
+        university: WSB Merito Chorzów
+        time: 2020 - 2024
+        details: |
+          Praca dyplomowa: "Artificial intelligence in enterprise: Theoretical foundations and practical applications 
+          in the era of digital transformation" (ocena 5.0)
+          Link do pracy: https://kamilkaczmareksolutions.com/thesis
 
-        - name: Pre Security
-          start: 2024
-          end: 
-          organization: TryHackMe | Cyber Security Training
-          credentialid: THM-JQPSIP1Q26
-          credentialurl: tryhackme-certificates.s3-eu-west-1.amazonaws.com/THM-JQPSIP1Q26.png
-          credentialname: Pre Security
-          details: |
-            Zdobyłem podstawową wiedzę z zakresu cyberbezpieczeństwa, m.in. nt. sieci, podstaw systemów operacyjnych i zasad bezpieczeństwa.
-        
-        - name: Introduction to Cyber Security
-          start: 2024
-          end: 
-          organization: TryHackMe | Cyber Security Training
-          credentialid: THM-FPKWGYOCUT
-          credentialurl: tryhackme-certificates.s3-eu-west-1.amazonaws.com/THM-FPKWGYOCUT.png
-          credentialname: Introduction to Cyber Security
-          details: |
-            Zdobyłem wszechstronne umiejętności w zakresie cyberbezpieczeństwa, obejmujące strategie obronne, operacje SOC, kryminalistykę cyfrową i etyczny hacking.
-        
-        - name: Getting Started with ThreatGEN® Red vs. Blue
-          start: 2024
-          end: 
-          organization: ThreatGEN
-          credentialid: o8zktplxud
-          credentialurl: portal.threatgen.com/certificates/o8zktplxud
-          credentialname: Getting Started with ThreatGEN® Red vs. Blue
-          details: |
-            Ukończyłem szkolenie z symulacji cyberbezpieczeństwa opartej na grze ThreatGEN® Red vs. Blue, koncentrując się na operacjach defensywnych i ofensywnych.
-            
-        - name: Red vs. Blue Cyber Simulation Range
-          start: 2024
-          end:
-          organization: ThreatGEN
-          credentialid: s8fayxwi0v
-          credentialurl: portal.threatgen.com/certificates/s8fayxwi0v
-          credentialname: Red vs. Blue Cyber Simulation Range
-          details: |
-            Brałem udział w symulacjach cyberbezpieczeństwa live, broniąc i atakując sieci komputerowe i systemy przemysłowe.
+      - degree: Bezpieczeństwo Wewnętrzne
+        university: AWF
+        time: 2016 - 2018
+        details: Nieukończone
+
+skills:
+    title: Umiejętności
+    toolset:
+      - name: Techniczne
+        details: |
+          - Zaawansowana znajomość narzędzi (LLMs, GeneratywnaAI, Notion, Excel z VBA)
+          - Programowanie (Python, JavaScript, HTML, PHP)
+          - Social Media Marketing
+          - Marketing Automation
+          - Analiza danych marketingowych
+
+      - name: Miękkie
+        details: |
+          - Zarządzanie projektami
+          - Komunikacja międzykulturowa
+          - Rozwiązywanie problemów
+          - Adaptacyjność
+          - Myślenie analityczne
 
 projects:
-    title: Projekty
-    intro: >
-      Rozwiązania programowe wykorzystujące AI i zarządzanie danymi.
-      Koncentruję się na praktycznych zastosowaniach, które usprawniają procesy i poprawiają UX.
-      Przede wszystkim zależy mi na budowie rozwiązań, które zrzucają z barków konieczność wykonywania powtarzalnych czynności.
+    title: Projekty specjalne
     assignments:
-      - title: Generator Podpisów do Oprawionych Obrazów dla firmy JanAr
-        link: "https://github.com/kamilkaczmareksolutions/JanAr"
-        tagline: "Aplikacja z GUI (Streamlit) wykorzystująca modele GPT do automatycznego generowania angażujących opisów do portfolio w mediach społecznościowych. Stworzona dla warsztatu szklarskiego i firmy zajmującej się oprawą obrazów 'JanAr', łączy moc GPT-4-Vision z zachęcającą do udzielania się pod postami strukturą."
+      - title: GenerujObraz.pl
+        tagline: "Implementacja AI w sztuce"
 
-      - title: Automatyzacja Researchu, Struktury Prezentacji i Narracji, czyli szkielet do serii filmów eukacyjnych
-        link: "https://github.com/kamilkaczmareksolutions/Educational_Video_Series_Automation_Project"
-        tagline: "Projekt automatyzujący 80% pracy przy tworzeniu serii video edukacyjnych, wykorzystujący Custom GPTs, Pythona i DALL·E do tworzenia opracowań kompleksowych tematów. Tworzy angażujące treści edukacyjne w sposób sekwencyjny."
-      
-      - title: Konfigurowalny generator przepisów na wzrost masy mięśniowej
-        link: "https://github.com/kamilkaczmareksolutions/Recipe_Generator"
-        tagline: "Prosta aplikacja z GUI wykorzystująca API od OpenAI do generowania przepisów dostosowanych do indywidualnych celów użytkownika, mająca dużo opcji na konfigurację."
+      - title: AI Podcast
+        tagline: "Kanał na YouTube"
 
-publications:
-    title: Publikacje
-    
-    papers:
-      - title: Artificial intelligence in enterprise - Theoretical foundations and practical applications in the era of digital transformation
-        link: "https://kamilkaczmareksolutions.com/thesis"
-        authors: Praca licencjacka, 2024
+      - title: System optymalizacji tras dostaw
+        tagline: "Projekt dla Barbora wykorzystujący Google Maps API"
 
-      - title: Improving GPT-4 Performance - Practical Strategies
-        link: "https://www.linkedin.com/pulse/improving-gpt-4-performance-practical-strategies-kamil-kaczmarek-rffif/?trackingId=ygQQl9xpSRSGCs4ylik97g%3D%3D"
-        authors: Poradnik dot. kontroli modelu, 2024
-        
-#skills:
-#    title: Umiejętności i biegłość
-#
-#    toolset:
-#      - name: Prompt engineering
-#        level: 98%
-#
-#      - name: Research i OSINT
-#        level: 94%
-#
-#      - name: Rozwiązywanie problemów
-#        level: 90%
-#      
-#      - name: Excel (Macro & VBA)
-#        level: 82%
-#
-#      - name: Analiza i zarządzanie danymi
-#        level: 78%
-#
-#      - name: Rozwój oprogramowania
-#        level: 74%
-#
-#      - name: Cyberbezpieczeństwo
-#        level: 70%
+      - title: Poradnik dot. kontroli modelu
+        link: "https://www.linkedin.com/pulse/improving-gpt-4-performance-practical-strategies-kamil-kaczmarek-rffif"
 
 footer: >
-    Wyrażam zgodę na przetwarzanie moich danych osobowych w celu rekrutacji zgodnie z art. 6 ust. 1 lit. a Rozporządzenia Parlamentu Europejskiego i Rady (UE) 2016/679 z dnia 27 kwietnia 2016 r. w sprawie ochrony osób fizycznych w związku z przetwarzaniem danych osobowych i w sprawie swobodnego przepływu takich danych oraz uchylenia dyrektywy 95/46/WE (ogólne rozporządzenie o ochronie danych).
+    Wyrażam zgodę na przetwarzanie moich danych osobowych dla potrzeb niezbędnych do realizacji procesu rekrutacji.
