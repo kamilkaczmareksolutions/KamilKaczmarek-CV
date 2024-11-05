@@ -1,242 +1,220 @@
-<!DOCTYPE html>
-<html lang="pl">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kamil Kaczmarek - CV</title>
-    <style>
-        :root {
-            --primary-color: #2c3e50;
-            --secondary-color: #3498db;
-            --text-color: #333;
-            --bg-color: #f9f9f9;
-        }
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
 
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        }
+sidebar:
+    position: right # position of the sidebar : left or right
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    education: True # set to False if you want education in main section instead of in sidebar
 
-        body {
-            background-color: var(--bg-color);
-            color: var(--text-color);
-            line-height: 1.6;
-        }
+    # Profile information
+    name: Kamil Kaczmarek
+    tagline: Stażysta IT
+    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
-        .container {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 2rem;
-        }
+    # Sidebar links
+    email: recruitment@kamilkaczmareksolutions.com
+    phone: +48 787 633 442
+    website: #do not add http://
+    linkedin: kamilkaczmareksolutions
+    xing:
+    github: kamilkaczmareksolutions
+    telegram: # add your nickname without '@' sign
+    gitlab:
+    bitbucket:
+    twitter:
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+    codewars:
+    goodreads: # Number-Username, e.g. 123456-alandoe
+    pdf: https://kamilkaczmareksolutions.com/cv-download-pl
 
-        header {
-            background-color: var(--primary-color);
-            color: white;
-            padding: 3rem 0;
-            margin-bottom: 2rem;
-        }
+    languages:
+      title: Języki
+      info:
+        - idiom: Polski
+          level: Ojczysty
 
-        .header-content {
-            text-align: center;
-        }
+        - idiom: Angielski
+          level: Biegły
 
-        .header-content h1 {
-            font-size: 2.5rem;
-            margin-bottom: 1rem;
-        }
+    interests:
+      title: Zainteresowania
+      info:
+        - item: Tworzenie Rozwiązań
+          link:
 
-        .contact-info {
-            display: flex;
-            justify-content: center;
-            gap: 2rem;
-            margin-top: 1rem;
-        }
+        - item: AI
+          link:
 
-        .section {
-            background: white;
-            padding: 2rem;
-            margin-bottom: 2rem;
-            border-radius: 8px;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-        }
+        - item: Automatyzacja Procesów
+          link:
 
-        .section h2 {
-            color: var(--primary-color);
-            margin-bottom: 1.5rem;
-            border-bottom: 2px solid var(--secondary-color);
-            padding-bottom: 0.5rem;
-        }
+        - item: Cyberbezpieczeństwo
+          link:
 
-        .experience-item {
-            margin-bottom: 2rem;
-        }
-
-        .experience-item h3 {
-            color: var(--secondary-color);
-            margin-bottom: 0.5rem;
-        }
-
-        .experience-item .period {
-            color: #666;
-            font-style: italic;
-            margin-bottom: 0.5rem;
-        }
-
-        .skills-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 2rem;
-        }
-
-        .skill-category {
-            margin-bottom: 1.5rem;
-        }
-
-        .skill-category h3 {
-            color: var(--secondary-color);
-            margin-bottom: 1rem;
-        }
-
-        .skill-list {
-            list-style: none;
-        }
-
-        .skill-list li {
-            margin-bottom: 0.5rem;
-            padding-left: 1.5rem;
-            position: relative;
-        }
-
-        .skill-list li::before {
-            content: "•";
-            color: var(--secondary-color);
-            position: absolute;
-            left: 0;
-        }
-
-        .projects {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 2rem;
-        }
-
-        .project-card {
-            background: white;
-            padding: 1.5rem;
-            border-radius: 8px;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-        }
-
-        @media (max-width: 768px) {
-            .contact-info {
-                flex-direction: column;
-                gap: 1rem;
-            }
+career-profile:
+    title: Profil Zawodowy
+    summary: |
+      Jestem zainteresowany tworzeniem rozwiązań spersonalizowanych pod klienta i rozwojem sztucznej inteligencji oraz cyberbezpieczeństwem.
+      Posiadam umiejętność optymalizacji procesów i mam doświadczenie w budowie procedur oraz jestem biegły w stosowaniu najnowocześniejszych technologii niezależnie od środowiska i warunków.
             
-            .skills-grid {
-                grid-template-columns: 1fr;
-            }
-        }
-    </style>
-</head>
-<body>
-    <header>
-        <div class="container header-content">
-            <h1>Kamil Kaczmarek</h1>
-            <p>Marketing Manager & AI Solutions</p>
-            <div class="contact-info">
-                <span>📧 recruitment@kamilkaczmareksolutions.com</span>
-                <span>📱 +48 697 458 214</span>
-                <span>📍 Siemianowice Śląskie, Polska</span>
-            </div>
-        </div>
-    </header>
+education:
+    title: Edukacja
+    info:
+      - degree: Licencjat z marketingu i sprzedaży
+        university: Uniwersytet WSB Merito Chorzów
+        time: 2020 - 2024
+        details: |
+          Specjalizacja: e-commerce i sprzedaż w nowych mediach, mocne zainteresowanie tematyką AI. 
+          Praca licencjacka na temat: Artificial intelligence in enterprise - Theoretical foundations and practical applications in the era of digital transformation.
 
-    <main class="container">
-        <section class="section">
-            <h2>Profil Zawodowy</h2>
-            <p>Innowacyjny specjalista marketingu cyfrowego z doświadczeniem w wykorzystaniu AI i nowych technologii. 
-            Założyciel Kamil Kaczmarek Solutions, z udokumentowanym prowadzeniem działań marketingowych dla różnorodnych branż. 
-            Biegła znajomość języka angielskiego potwierdzona pracą w środowisku międzynarodowym.</p>
-        </section>
+experiences:
+    title: Doświadczenie
+    info:
+      - role: Własna działalność
+        time: Czerwiec 2023 - Obecnie
+        company: Kamil Kaczmarek Solutions
+        details: |
+          - Tworzenie prostych rozwiązań pod klienta, aplikacje z API od OpenAI pod spodem.
+          - Python, prompt engineering.
+          - Tworzenie i automatyzacja procesów i procedur, projektowanie i integracja systemów.
+          - Analiza podatności (SharpHound, BloodHound, theHarvester), OSINT (SpiderFoot, Maltego), SIEM (WAZUH) 
+                
+      - role: Pracownik Administracyjny
+        time: Listopad 2022 - Październik 2023
+        company: Alpha Workforce Aps, Rotterdam
+        details: |
+          - Prace administracyjne.
+          - Koordynacja logistyki pracowników z wykorzystaniem narzędzi cyfrowych, w tym AI, ActiveCampaign, flotman, optimoroute, Macro VBA (Excel) i inne.
+          - Pomoc przy zarządzaniu projektem na dużą skalę (~300 pracowników) z naciskiem na budowę procesów i procedur, w kolejnym kroku na automatyzację.
+          - Wdrażanie AI w codziennych zadaniach dla usprawnienia pracy i zarządzania (przede wszystkim delegowanie na AI powtarzalnych zadań, tworzenie prostych apek z UI).
+      
+      - role: Konsultant Marketingowy
+        time: Kwiecień 2020 - Listopad 2022
+        company: Freelance
+        details: |
+          - Budowa ChatBotów (ManyChat), Zapier, Macro VBA (Excel), różne managery reklam (Meta/TikTok).
+          - Opracowywanie i wdrażanie strategii świadomości marki online, zarządzanie systemami (np. Booksy, Moment).
+          - Kampanie mailingowe i SMS.
+          - Integracja systemów, planowanie strategiczne, reklama wieloplatformowa, zarządzanie relacjami z klientami.
+          - Biegłość w narzędziach i platformach cyfrowych, różnorodne projekty.
+      
+      - role: Kolekcjoner Danych
+        time: Kwiecień 2019 - Kwiecień 2020
+        company: IMG ARENA (wcześniej FlightScope) - European Golf Tour
+        details: |
+          - Wykonywanie pomiarów podczas turniejów golfowych European Tour, obsługa systemu GPS.
+          - Dostarczanie wysokiej jakości danych w czasie rzeczywistym dla bukmacherów, pomoc przy trenowaniu Sieci Neuronowych (data labeling), wysoka precyzja, doświadczenie międzynarodowe.
+          - Szybka obróbka danych, wysoka dokładność, umiejętność pracy w sytuacjach wysokiego stresu, adaptacja do różnych środowisk.    
 
-        <section class="section">
-            <h2>Doświadczenie Zawodowe</h2>
-            <div class="experience-item">
-                <h3>Założyciel i Marketing Manager - Kamil Kaczmarek Solutions</h3>
-                <div class="period">Październik 2023 - obecnie</div>
-                <ul class="skill-list">
-                    <li>Implementacja rozwiązań AI (LLMs, GeneratywnaAI) w strategiach marketingowych</li>
-                    <li>Tworzenie zautomatyzowanych rozwiązań marketingowych</li>
-                    <li>Zarządzanie projektami dla klientów z różnych branż</li>
-                </ul>
-            </div>
+certifications:
+      title: Certyfikaty
+      list:
+        - name: CyberTek Tech Festival 2024
+          start: 2024
+          end: 
+          organization: CyberTek Tech Festival
+          credentialid: 5af19b7a-ee9c-4cc8-9e47-2aad8ec91996
+          credentialurl: credsverse.com/credentials/5af19b7a-ee9c-4cc8-9e47-2aad8ec91996
+          credentialname: CyberTek Tech Festival 2024
+          details: |
+            Uczestniczyłem jako wolontariusz w dwudniowym festiwalu w Katowicach, zdobywając punkty CPE dzięki wykładom na zaawansowane tematy z zakresu cyberbezpieczeństwa OT, reagowania na incydenty i analizy ryzyka.
 
-            <div class="experience-item">
-                <h3>Koordynator administracyjny - Projekt rozbudowy rafinerii, Rotterdam</h3>
-                <div class="period">Listopad 2022 - Październik 2023</div>
-                <ul class="skill-list">
-                    <li>Zarządzanie komunikacją między polskimi pracownikami a anglojęzycznym managementem</li>
-                    <li>Koordynacja pracowników i tłumaczenia</li>
-                    <li>Nadzór nad dokumentacją projektową</li>
-                </ul>
-            </div>
+        - name: Pre Security
+          start: 2024
+          end: 
+          organization: TryHackMe | Cyber Security Training
+          credentialid: THM-JQPSIP1Q26
+          credentialurl: tryhackme-certificates.s3-eu-west-1.amazonaws.com/THM-JQPSIP1Q26.png
+          credentialname: Pre Security
+          details: |
+            Zdobyłem podstawową wiedzę z zakresu cyberbezpieczeństwa, m.in. nt. sieci, podstaw systemów operacyjnych i zasad bezpieczeństwa.
+        
+        - name: Introduction to Cyber Security
+          start: 2024
+          end: 
+          organization: TryHackMe | Cyber Security Training
+          credentialid: THM-FPKWGYOCUT
+          credentialurl: tryhackme-certificates.s3-eu-west-1.amazonaws.com/THM-FPKWGYOCUT.png
+          credentialname: Introduction to Cyber Security
+          details: |
+            Zdobyłem wszechstronne umiejętności w zakresie cyberbezpieczeństwa, obejmujące strategie obronne, operacje SOC, kryminalistykę cyfrową i etyczny hacking.
+        
+        - name: Getting Started with ThreatGEN® Red vs. Blue
+          start: 2024
+          end: 
+          organization: ThreatGEN
+          credentialid: o8zktplxud
+          credentialurl: portal.threatgen.com/certificates/o8zktplxud
+          credentialname: Getting Started with ThreatGEN® Red vs. Blue
+          details: |
+            Ukończyłem szkolenie z symulacji cyberbezpieczeństwa opartej na grze ThreatGEN® Red vs. Blue, koncentrując się na operacjach defensywnych i ofensywnych.
+            
+        - name: Red vs. Blue Cyber Simulation Range
+          start: 2024
+          end:
+          organization: ThreatGEN
+          credentialid: s8fayxwi0v
+          credentialurl: portal.threatgen.com/certificates/s8fayxwi0v
+          credentialname: Red vs. Blue Cyber Simulation Range
+          details: |
+            Brałem udział w symulacjach cyberbezpieczeństwa live, broniąc i atakując sieci komputerowe i systemy przemysłowe.
 
-            <!-- Kolejne doświadczenia w tej samej strukturze -->
-        </section>
+projects:
+    title: Projekty
+    intro: >
+      Rozwiązania programowe wykorzystujące AI i zarządzanie danymi.
+      Koncentruję się na praktycznych zastosowaniach, które usprawniają procesy i poprawiają UX.
+      Przede wszystkim zależy mi na budowie rozwiązań, które zrzucają z barków konieczność wykonywania powtarzalnych czynności.
+    assignments:
+      - title: Generator Podpisów do Oprawionych Obrazów dla firmy JanAr
+        link: "https://github.com/kamilkaczmareksolutions/JanAr"
+        tagline: "Aplikacja z GUI (Streamlit) wykorzystująca modele GPT do automatycznego generowania angażujących opisów do portfolio w mediach społecznościowych. Stworzona dla warsztatu szklarskiego i firmy zajmującej się oprawą obrazów 'JanAr', łączy moc GPT-4-Vision z zachęcającą do udzielania się pod postami strukturą."
 
-        <section class="section">
-            <h2>Umiejętności</h2>
-            <div class="skills-grid">
-                <div class="skill-category">
-                    <h3>Techniczne</h3>
-                    <ul class="skill-list">
-                        <li>Zaawansowana znajomość narzędzi (LLMs, GeneratywnaAI, Notion, Excel z VBA)</li>
-                        <li>Programowanie (Python, JavaScript, HTML, PHP)</li>
-                        <li>Social Media Marketing</li>
-                        <li>Marketing Automation</li>
-                        <li>Analiza danych marketingowych</li>
-                    </ul>
-                </div>
+      - title: Automatyzacja Researchu, Struktury Prezentacji i Narracji, czyli szkielet do serii filmów eukacyjnych
+        link: "https://github.com/kamilkaczmareksolutions/Educational_Video_Series_Automation_Project"
+        tagline: "Projekt automatyzujący 80% pracy przy tworzeniu serii video edukacyjnych, wykorzystujący Custom GPTs, Pythona i DALL·E do tworzenia opracowań kompleksowych tematów. Tworzy angażujące treści edukacyjne w sposób sekwencyjny."
+      
+      - title: Konfigurowalny generator przepisów na wzrost masy mięśniowej
+        link: "https://github.com/kamilkaczmareksolutions/Recipe_Generator"
+        tagline: "Prosta aplikacja z GUI wykorzystująca API od OpenAI do generowania przepisów dostosowanych do indywidualnych celów użytkownika, mająca dużo opcji na konfigurację."
 
-                <div class="skill-category">
-                    <h3>Miękkie</h3>
-                    <ul class="skill-list">
-                        <li>Zarządzanie projektami</li>
-                        <li>Komunikacja międzykulturowa</li>
-                        <li>Rozwiązywanie problemów</li>
-                        <li>Adaptacyjność</li>
-                        <li>Myślenie analityczne</li>
-                    </ul>
-                </div>
-            </div>
-        </section>
+publications:
+    title: Publikacje
+    
+    papers:
+      - title: Artificial intelligence in enterprise - Theoretical foundations and practical applications in the era of digital transformation
+        link: "https://kamilkaczmareksolutions.com/thesis"
+        authors: Praca licencjacka, 2024
 
-        <section class="section">
-            <h2>Projekty Specjalne</h2>
-            <div class="projects">
-                <div class="project-card">
-                    <h3>GenerujObraz.pl</h3>
-                    <p>Implementacja AI w sztuce</p>
-                </div>
-                <div class="project-card">
-                    <h3>AI Podcast</h3>
-                    <p>Kanał na YouTube</p>
-                </div>
-                <div class="project-card">
-                    <h3>System optymalizacji tras dostaw</h3>
-                    <p>Projekt dla Barbora wykorzystujący Google Maps API</p>
-                </div>
-            </div>
-        </section>
-    </main>
+      - title: Improving GPT-4 Performance - Practical Strategies
+        link: "https://www.linkedin.com/pulse/improving-gpt-4-performance-practical-strategies-kamil-kaczmarek-rffif/?trackingId=ygQQl9xpSRSGCs4ylik97g%3D%3D"
+        authors: Poradnik dot. kontroli modelu, 2024
+        
+#skills:
+#    title: Umiejętności i biegłość
+#
+#    toolset:
+#      - name: Prompt engineering
+#        level: 98%
+#
+#      - name: Research i OSINT
+#        level: 94%
+#
+#      - name: Rozwiązywanie problemów
+#        level: 90%
+#      
+#      - name: Excel (Macro & VBA)
+#        level: 82%
+#
+#      - name: Analiza i zarządzanie danymi
+#        level: 78%
+#
+#      - name: Rozwój oprogramowania
+#        level: 74%
+#
+#      - name: Cyberbezpieczeństwo
+#        level: 70%
 
-    <footer class="section">
-        <p style="text-align: center; font-size: 0.9rem; color: #666;">
-            Wyrażam zgodę na przetwarzanie moich danych osobowych dla potrzeb niezbędnych do realizacji procesu rekrutacji.
-        </p>
-    </footer>
-</body>
-</html>
+footer: >
+    Wyrażam zgodę na przetwarzanie moich danych osobowych w celu rekrutacji zgodnie z art. 6 ust. 1 lit. a Rozporządzenia Parlamentu Europejskiego i Rady (UE) 2016/679 z dnia 27 kwietnia 2016 r. w sprawie ochrony osób fizycznych w związku z przetwarzaniem danych osobowych i w sprawie swobodnego przepływu takich danych oraz uchylenia dyrektywy 95/46/WE (ogólne rozporządzenie o ochronie danych).
