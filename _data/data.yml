@@ -1,135 +1,242 @@
-sidebar:
-    position: right
-    about: False
-    education: True
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kamil Kaczmarek - CV</title>
+    <style>
+        :root {
+            --primary-color: #2c3e50;
+            --secondary-color: #3498db;
+            --text-color: #333;
+            --bg-color: #f9f9f9;
+        }
 
-    # Profile information
-    name: Kamil Kaczmarek
-    tagline: Marketing Manager & AI Solutions
-    avatar: profile.png
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
 
-    # Sidebar links
-    email: recruitment@kamilkaczmareksolutions.com
-    phone: +48 697 458 214
-    location: Siemianowice Śląskie, Polska
-    linkedin: kamilkaczmareksolutions
-    github: kamilkaczmareksolutions
-    pdf: https://kamilkaczmareksolutions.com/cv-download-pl
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            line-height: 1.6;
+        }
 
-    languages:
-      title: Języki
-      info:
-        - idiom: Polski
-          level: Ojczysty
-        - idiom: Angielski
-          level: Biegły
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
 
-    interests:
-      title: Zainteresowania
-      info:
-        - item: Marketing Cyfrowy
-          link:
-        - item: AI w Biznesie
-          link:
-        - item: Psychologia Biznesu
-          link:
-        - item: Nowe Technologie
-          link:
+        header {
+            background-color: var(--primary-color);
+            color: white;
+            padding: 3rem 0;
+            margin-bottom: 2rem;
+        }
 
-career-profile:
-    title: Profil Zawodowy
-    summary: |
-      Innowacyjny specjalista marketingu cyfrowego z doświadczeniem w wykorzystaniu AI i nowych technologii. 
-      Założyciel Kamil Kaczmarek Solutions, z udokumentowanym prowadzeniem działań marketingowych dla różnorodnych branż. 
-      Biegła znajomość języka angielskiego potwierdzona pracą w środowisku międzynarodowym.
+        .header-content {
+            text-align: center;
+        }
 
-experiences:
-    title: Doświadczenie
-    info:
-      - role: Założyciel i Marketing Manager
-        time: Październik 2023 - Obecnie
-        company: Kamil Kaczmarek Solutions
-        details: |
-          - Implementacja rozwiązań AI (LLMs, GeneratywnaAI) w strategiach marketingowych
-          - Tworzenie zautomatyzowanych rozwiązań marketingowych
-          - Zarządzanie projektami dla klientów z różnych branż
-          - Rozwój własnych rozwiązań AI w marketingu
+        .header-content h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
 
-      - role: Koordynator administracyjny
-        time: Listopad 2022 - Październik 2023
-        company: Projekt rozbudowy rafinerii, Rotterdam
-        details: |
-          - Zarządzanie komunikacją między polskimi pracownikami a anglojęzycznym managementem
-          - Koordynacja pracowników i tłumaczenia
-          - Nadzór nad dokumentacją projektową
-          - Implementacja rozwiązań optymalizacyjnych
+        .contact-info {
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            margin-top: 1rem;
+        }
 
-      - role: Marketing Manager
-        time: Kwiecień 2020 - Listopad 2022
-        company: Freelancer
-        details: |
-          - Prowadzenie kompleksowych kampanii marketingowych i social media dla portfolio 12+ klientów
-          - Projekt "Pomagam Groomerom" - audyty i strategie marketingowe
-          - Obsługa klientów z branż: beauty, wedding planning, gastronomia, dog grooming, studia tańca
-          - Implementacja rozwiązań automatyzacyjnych
+        .section {
+            background: white;
+            padding: 2rem;
+            margin-bottom: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
 
-      - role: Specjalista ds. analizy danych
-        time: Kwiecień 2019 - Kwiecień 2020
-        company: FlightScope / IMG Arena
-        details: |
-          - Zbieranie i analiza danych podczas międzynarodowych turniejów golfowych
-          - Współpraca z bookmacherami i analiza statystyk sportowych
-          - Praca w środowisku międzynarodowym (Europa, Skandynawia, kraje arabskie)
+        .section h2 {
+            color: var(--primary-color);
+            margin-bottom: 1.5rem;
+            border-bottom: 2px solid var(--secondary-color);
+            padding-bottom: 0.5rem;
+        }
 
-education:
-    title: Edukacja
-    info:
-      - degree: Licencjat z Marketingu i Sprzedaży
-        university: WSB Merito Chorzów
-        time: 2020 - 2024
-        details: |
-          Praca dyplomowa: "Artificial intelligence in enterprise: Theoretical foundations and practical applications 
-          in the era of digital transformation" (ocena 5.0)
-          Link do pracy: https://kamilkaczmareksolutions.com/thesis
+        .experience-item {
+            margin-bottom: 2rem;
+        }
 
-      - degree: Bezpieczeństwo Wewnętrzne
-        university: AWF
-        time: 2016 - 2018
-        details: Nieukończone
+        .experience-item h3 {
+            color: var(--secondary-color);
+            margin-bottom: 0.5rem;
+        }
 
-skills:
-    title: Umiejętności
-    toolset:
-      - name: Techniczne
-        details: |
-          - Zaawansowana znajomość narzędzi (LLMs, GeneratywnaAI, Notion, Excel z VBA)
-          - Programowanie (Python, JavaScript, HTML, PHP)
-          - Social Media Marketing
-          - Marketing Automation
-          - Analiza danych marketingowych
+        .experience-item .period {
+            color: #666;
+            font-style: italic;
+            margin-bottom: 0.5rem;
+        }
 
-      - name: Miękkie
-        details: |
-          - Zarządzanie projektami
-          - Komunikacja międzykulturowa
-          - Rozwiązywanie problemów
-          - Adaptacyjność
-          - Myślenie analityczne
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+        }
 
-projects:
-    title: Projekty specjalne
-    assignments:
-      - title: GenerujObraz.pl
-        tagline: "Implementacja AI w sztuce"
+        .skill-category {
+            margin-bottom: 1.5rem;
+        }
 
-      - title: AI Podcast
-        tagline: "Kanał na YouTube"
+        .skill-category h3 {
+            color: var(--secondary-color);
+            margin-bottom: 1rem;
+        }
 
-      - title: System optymalizacji tras dostaw
-        tagline: "Projekt dla Barbora wykorzystujący Google Maps API"
+        .skill-list {
+            list-style: none;
+        }
 
-      - title: Poradnik dot. kontroli modelu
-        link: "https://www.linkedin.com/pulse/improving-gpt-4-performance-practical-strategies-kamil-kaczmarek-rffif"
+        .skill-list li {
+            margin-bottom: 0.5rem;
+            padding-left: 1.5rem;
+            position: relative;
+        }
 
-footer: >
-    Wyrażam zgodę na przetwarzanie moich danych osobowych dla potrzeb niezbędnych do realizacji procesu rekrutacji.
+        .skill-list li::before {
+            content: "•";
+            color: var(--secondary-color);
+            position: absolute;
+            left: 0;
+        }
+
+        .projects {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+        }
+
+        .project-card {
+            background: white;
+            padding: 1.5rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        @media (max-width: 768px) {
+            .contact-info {
+                flex-direction: column;
+                gap: 1rem;
+            }
+            
+            .skills-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container header-content">
+            <h1>Kamil Kaczmarek</h1>
+            <p>Marketing Manager & AI Solutions</p>
+            <div class="contact-info">
+                <span>📧 recruitment@kamilkaczmareksolutions.com</span>
+                <span>📱 +48 697 458 214</span>
+                <span>📍 Siemianowice Śląskie, Polska</span>
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="section">
+            <h2>Profil Zawodowy</h2>
+            <p>Innowacyjny specjalista marketingu cyfrowego z doświadczeniem w wykorzystaniu AI i nowych technologii. 
+            Założyciel Kamil Kaczmarek Solutions, z udokumentowanym prowadzeniem działań marketingowych dla różnorodnych branż. 
+            Biegła znajomość języka angielskiego potwierdzona pracą w środowisku międzynarodowym.</p>
+        </section>
+
+        <section class="section">
+            <h2>Doświadczenie Zawodowe</h2>
+            <div class="experience-item">
+                <h3>Założyciel i Marketing Manager - Kamil Kaczmarek Solutions</h3>
+                <div class="period">Październik 2023 - obecnie</div>
+                <ul class="skill-list">
+                    <li>Implementacja rozwiązań AI (LLMs, GeneratywnaAI) w strategiach marketingowych</li>
+                    <li>Tworzenie zautomatyzowanych rozwiązań marketingowych</li>
+                    <li>Zarządzanie projektami dla klientów z różnych branż</li>
+                </ul>
+            </div>
+
+            <div class="experience-item">
+                <h3>Koordynator administracyjny - Projekt rozbudowy rafinerii, Rotterdam</h3>
+                <div class="period">Listopad 2022 - Październik 2023</div>
+                <ul class="skill-list">
+                    <li>Zarządzanie komunikacją między polskimi pracownikami a anglojęzycznym managementem</li>
+                    <li>Koordynacja pracowników i tłumaczenia</li>
+                    <li>Nadzór nad dokumentacją projektową</li>
+                </ul>
+            </div>
+
+            <!-- Kolejne doświadczenia w tej samej strukturze -->
+        </section>
+
+        <section class="section">
+            <h2>Umiejętności</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Techniczne</h3>
+                    <ul class="skill-list">
+                        <li>Zaawansowana znajomość narzędzi (LLMs, GeneratywnaAI, Notion, Excel z VBA)</li>
+                        <li>Programowanie (Python, JavaScript, HTML, PHP)</li>
+                        <li>Social Media Marketing</li>
+                        <li>Marketing Automation</li>
+                        <li>Analiza danych marketingowych</li>
+                    </ul>
+                </div>
+
+                <div class="skill-category">
+                    <h3>Miękkie</h3>
+                    <ul class="skill-list">
+                        <li>Zarządzanie projektami</li>
+                        <li>Komunikacja międzykulturowa</li>
+                        <li>Rozwiązywanie problemów</li>
+                        <li>Adaptacyjność</li>
+                        <li>Myślenie analityczne</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2>Projekty Specjalne</h2>
+            <div class="projects">
+                <div class="project-card">
+                    <h3>GenerujObraz.pl</h3>
+                    <p>Implementacja AI w sztuce</p>
+                </div>
+                <div class="project-card">
+                    <h3>AI Podcast</h3>
+                    <p>Kanał na YouTube</p>
+                </div>
+                <div class="project-card">
+                    <h3>System optymalizacji tras dostaw</h3>
+                    <p>Projekt dla Barbora wykorzystujący Google Maps API</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="section">
+        <p style="text-align: center; font-size: 0.9rem; color: #666;">
+            Wyrażam zgodę na przetwarzanie moich danych osobowych dla potrzeb niezbędnych do realizacji procesu rekrutacji.
+        </p>
+    </footer>
+</body>
+</html>
